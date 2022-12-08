@@ -20,7 +20,7 @@ class ResultsPage extends StatelessWidget {
       backgroundColor: Color.fromARGB(255, 4, 0, 24),
       appBar: AppBar(
         backgroundColor: Color.fromARGB(255, 4, 0, 24),
-        title: Text('Индекс массы тела(BMI)'),
+        title: Text('nfiednfi массы тела(BMI)'),
       ),
       body: Column(
         mainAxisAlignment: MainAxisAlignment.spaceEvenly,
