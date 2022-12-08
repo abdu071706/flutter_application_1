@@ -1,17 +1,17 @@
+
 import 'package:flutter/material.dart';
-import 'package:flutter_application_1/ui/bmi_ui.dart';
-import 'package:flutter_application_1/ui/home_ui.dart';
-
-void main() {
-  runApp(Abi());
+import 'package:flutter_application_1/screen/first.dart';
+void main(){
+  runApp(MyApp());
 }
-
-class Abi extends StatelessWidget {
-  const Abi({Key? key}) : super(key: key);
+class MyApp extends StatelessWidget {
+  const MyApp({ Key? key }) : super(key: key);
 
   @override
   Widget build(BuildContext context) {
-    return MaterialApp(debugShowCheckedModeBanner: false,
-    home: const Homeui());
+    return MaterialApp(
+      debugShowCheckedModeBanner: false,
+      home: MyPage(),
+    );
   }
 }
